@@ -1,13 +1,21 @@
 
 export default function LoginForm() {
-    const formulario = document.createElement
-    ('form');
+    const formulario = document.createElement ('form');
     
-    const email = document.createElement
-    ('input');
+    const email = document.createElement ('input');
     email.type = 'email';
     email.placeholder = "Digite seu e-mail";
     formulario.appendChild(email);
+
+    const senha = document.createElement ('input');
+    senha.type = 'password';
+    senha.placeholder = 'Digite sua senha:';
+    formulario.appendChild(senha);
+
+    const button = document.createElement ('button')
+    button.type = 'submit';
+    button.textContent = 'Entrar';
+    formulario.appendChild(button);
 
     return formulario;
 }
