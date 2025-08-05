@@ -14,7 +14,7 @@ export default function LoginForm() {
 
     const button = document.createElement('button');
     button.type = 'submit';
-    btnAuth.textContent = "Entrar";
+    button.textContent = "Entrar";
     formulario.appendChild(button); 
     
     return formulario;
