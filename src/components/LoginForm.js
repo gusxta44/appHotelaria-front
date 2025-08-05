@@ -6,15 +6,16 @@ export default function LoginForm() {
     email.type = 'email';
     email.placeholder = "Digite seu e-mail";
     formulario.appendChild(email);
+    
     const password = document.createElement('input');
     password.type = 'password';
     password.placeholder = "Digite sua senha";
     formulario.appendChild(password);
 
-    const btnAuth = document.createElement('button');
-    btnAuth.type = 'submit';
+    const button = document.createElement('button');
+    button.type = 'submit';
     btnAuth.textContent = "Entrar";
-    formulario.appendChild(btnAuth); 
+    formulario.appendChild(button); 
     
     return formulario;
 }
