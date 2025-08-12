@@ -13,5 +13,14 @@ input:focus {
     outline: none;
 }
 
+body {
+    background-image: url('../../public/assets/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
 
 
