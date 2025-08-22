@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import LoginForm from "../components/LoginForm.js";
+=======
+import Form from "../components/Form.js";
+>>>>>>> 3219769 (att)
 import Navbar from "../components/Navbar.js";
 
 export default function renderLoginPage() { 
     const nav = document.getElementById('navbar');
     nav.innerHTML = '';
+<<<<<<< HEAD
 
     const navbar = Navbar();
     nav.appendChild(navbar)
@@ -29,4 +34,12 @@ export default function renderLoginPage() {
     
     container.appendChild(titulo);
     container.appendChild(formulario); //Nova div container, já dentro de divRoot, contém o form
+=======
+    
+    const navbar = Navbar();
+    nav.appendChild(navbar);
+
+    Form();
+
+>>>>>>> 3219769 (att)
 }

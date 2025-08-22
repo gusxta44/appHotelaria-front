@@ -1,14 +1,40 @@
 .titulo {
+<<<<<<< HEAD
     font-family: "Mozilla Headline", sans-serif;
     font-weight: 500;
+=======
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+>>>>>>> 3219769 (att)
     font-style: normal;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
 .btn {
+<<<<<<< HEAD
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 17px;
 }
+=======
+    font-family: "Latso", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+}
+
+input {
+    border-style: solid;
+    border-color: rgb(238, 235, 235);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(3, 65, 136);
+    border-color: rgb(3, 65, 136);
+}
+
+>>>>>>> 3219769 (att)
